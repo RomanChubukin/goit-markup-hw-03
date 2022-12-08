@@ -60,7 +60,15 @@ address {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
+}
+.container-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .header-nav {
   display: flex;
@@ -133,7 +141,6 @@ ul {
   background-color: var(--color-background-grey);
   height: 600px;
   text-align: center;
-  margin-top: 28px;
 }
 .hero-text {
   font-weight: 900;
@@ -199,11 +206,11 @@ ul {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.benefits-text {
+.benefits > li {
   margin-right: 30px;
 }
 .section-benefits {
-  margin: 66px 0 0 0;
+  padding: 94px 0 0 0;
 }
 .section-name {
   font-size: 36px;
@@ -303,35 +310,37 @@ ul {
   gap: 30px;
 }
 .gallary-card {
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 
 /* futer*/
 .footer-background {
   background-color: var(--color-background-grey);
-  padding: 60px;
+  padding: 60px 0;
 }
 .futer {
   color: var(--color-white);
-  }
+}
 .adres {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--color-white);
-  margin-top: 28px
+  margin-top: 28px;
 }
 .navigation-mail-futer,
 .navigation-tel-futer {
   font-style: normal;
   font-size: 14px;
-
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .navigation-mail-futer:hover {
   color: var(--color-blue);
+}
+.footer-link {
+  margin: 12px 0;
 }
